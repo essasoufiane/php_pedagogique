@@ -22,6 +22,16 @@ echo "J'ai " . $b . $a . " ans !";
 echo $c;
 echo "J'habite au " . $b . ($b+=$a) . " boulevard National";
 
+
+$fruits = ["fraise","grenade","melon","fayka","abricot"];
+
+var_dump($fruits);
+print_r($fruits);
+print_r("HelloMany");
+
+echo "<pre>";
+print_r($fruits);
+echo "</pre>";
 ?>
 </body>
 </html>
