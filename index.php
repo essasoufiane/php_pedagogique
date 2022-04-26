@@ -47,6 +47,24 @@ var_dump($cuisine);
 // affichier les elements des tableaux a plusieurs dimensions
 var_dump($cuisine[1][0]);
 // Die; exit('sortir'); les deux sont fait pour stopper le script
+
+//------tableau assossiatife-----
+// teableau multi dimension
+$frameworks = [
+    ["angular",'front',true],
+    ["symfony",'full-stack',false],
+    ["spring boot",'full-stack',false],
+    
+];
+// tableau associatif
+$frameworksAssoc = [
+    ["name" => "angular", "dev" => 'front', "async" => true],
+    ["name" => "symfony", "dev" => 'full-stack', "async" => false],
+    ["name" => "spring boot", "dev" => 'full-stack', "async" => false]
+    
+];
+
+var_dump($frameworksAssoc[2]["name"]);
 ?>
 </body>
 </html>
