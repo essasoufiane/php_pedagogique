@@ -36,6 +36,17 @@ $fruits[4] = "mchmech";
 echo "<pre>";
 print_r($fruits);
 echo "</pre>";
+
+// tableau 2D 3D
+$toto = "soufiane";
+
+$cuisine = [["fourchette",20,true],["assiète",50,false],["casserole",85,true],$toto];
+
+var_dump($cuisine);
+
+// affichier les elements des tableaux a plusieurs dimensions
+var_dump($cuisine[1][0]);
+// Die; exit('sortir'); les deux sont fait pour stopper le script
 ?>
 </body>
 </html>
