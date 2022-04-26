@@ -65,6 +65,9 @@ $frameworksAssoc = [
 ];
 
 var_dump($frameworksAssoc[2]["name"]);
+
+// compter la longueur du tableau
+echo count($frameworksAssoc);
 ?>
 </body>
 </html>
