@@ -29,6 +29,10 @@ var_dump($fruits);
 print_r($fruits);
 print_r("HelloMany");
 
+// modifier un element du tableau
+$fruits[4] = "mchmech";
+
+// pour afficher le tableau de manière plus presentable
 echo "<pre>";
 print_r($fruits);
 echo "</pre>";
